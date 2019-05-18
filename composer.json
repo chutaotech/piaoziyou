@@ -1,0 +1,21 @@
+{
+    "name": "chutaotech/piaoziyou",
+    "description": "票自由 API SDK",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "chutaotech",
+            "email": "develop@chutao.io"
+        }
+    ],
+    "require": {
+        "php": ">=7.0",
+        "ext-json": "*",
+        "guzzlehttp/guzzle": "^6.3"
+    },
+    "autoload": {
+        "psr-4": {
+            "ChutaoTech\\Piaoziyou\\": "src"
+        }
+    }
+}
